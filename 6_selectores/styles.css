@@ -1,0 +1,16 @@
+.boton_1 {
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.boton_1::before {  /*EL seudo-elemento before se utiliza para insertar contenido antes del contenido real*/
+    content: 'Pasa por encima';
+}
+
+.boton_1:hover::before { /*El seudo-clase :hover se utiliza para aplicar estilos en los elementos cuando el cursor pasa sobre él*/
+    background-color: #0f0;
+    color: #fff;
+    content: '¡Hecho!';
+    
+}

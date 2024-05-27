@@ -1,0 +1,152 @@
+<!--Crea un nuevo documento HTML siguiendo estas instrucciones:
+
+El documento debe estar dividido en tres secciones utilizando la etiqueta <section>.
+Requisitos para la primera sección:
+Incluye un título (<h1>) que diga "Incorporando tablas".
+Crea una tabla con al menos tres filas y tres columnas, llenándola con datos de ejemplo.
+Requisitos para la segunda sección:
+Incluye un título (<h1>) que diga "Incorporando listas".
+Crea una lista desordenada (<ul>) con al menos cinco elementos.
+Crea una lista ordenada (<ol>) con al menos cinco elementos.
+Requisitos para la tercera sección:
+Incluye un título (<h1>) que diga "Incorporando formularios".
+Crea un formulario con los siguientes campos:
+Un campo de texto para el nombre.
+Un campo de correo electrónico.
+Un campo de número de teléfono.
+Un campo de contraseña.
+Un área de texto para comentarios.
+Un botón para enviar el formulario.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulario_Tabla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Primera sección-->
+    <section>
+        <h1>Incorporando tablas</h1>
+        <table class="tabla">
+
+            <thead class="cabeza">
+                <h3>Destalle de Ventas</h3>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Unidad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Manzana</td>
+                    <td>$10</td>
+                    <td>1kg</td>
+                </tr>
+
+                <tr>
+                    <td>Pera</td>
+                    <td>$20</td>
+                    <td>1kg</td>
+                </tr>
+
+                <tr>
+                    <td>Sandia</td>
+                    <td>$30</td>
+                    <td>1kg</td>
+                </tr>
+                
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>TOTAL</td>
+                    <td>$60</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+    
+    <!--Segunda sección-->
+    <section>
+        <h1>Incorporando Listas</h1>
+        
+        <!--Lista desordenada-->
+        <ul>
+            <h2>Receta para hacer pan</h2>
+            <li>Harina</li>
+            <li>Huevo</li>
+            <li>Sal<l</li>
+            <li>Levadura</li>
+            <li>Grasa</li>
+        </ul>
+
+        <!--Lista ordenada-->
+        <ol>       
+            <h2>Tarea Programación</h2>
+            <li>Ejercicio_1</li>
+            <li>Ejercicio_2</li>
+            <li>Ejercicio_3</li>
+            <li>Ejercicio_4</li>
+            <li>Ejercicio_5</li>
+        </ol>
+    </section>
+
+
+    <section>
+        <h1>Incorporando Fromularios</h1>
+        <form>
+            <h3>Formulario de usuario</h3>
+            
+            <!--Campo de Nombre-->
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Fernando" id="nombre">
+            </div>
+
+            <!--Campo de Apellido-->
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Carrillo" id="apellido">
+            </div>
+                
+            <!--Campo de Correo electrónico-->
+            <div>
+                <label for="email">Correo</label>
+                <input type="email" placeholder="ejemplo@gamil.com" id="email">
+            </div>
+                
+            <!--Campo de Teléfono-->
+            <div>
+                <label for="numero">Teléfono</label>
+                <input type="text" placeholder="345667657568" id="numero">
+            </div>
+                
+            <!--Campo de Contraseña-->
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" placeholder="*********" id="contraseña">
+            </div>
+
+            <!--Campo de Comentario-->    
+            <div>
+                <label for="comentario">Mensaje</label>
+                <textarea rows="3" placeholder="deja tu comentario" id="comentario"></textarea>
+            </div>
+
+            <br>
+            
+            <!--Campo de Boton-->    
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </section>
+
+</body>
+</html>

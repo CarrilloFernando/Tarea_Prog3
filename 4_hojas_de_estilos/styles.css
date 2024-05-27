@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    color: #ccc;
+}
+
+
+.div_general {
+    background-color: #222e;
+    width: 600px;
+    text-align: center;   
+    margin: auto;
+    margin-top: 50px;
+    padding: 4px 0px;
+    box-shadow: 0px 50px 50px 0px  #000;
+    border-radius: 9px;
+}
+
+.imagen_perfil {
+    width: 200px;
+    height: 168px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px 0px  #000;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #ddda;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+    text-shadow:1px 0px #ccc;
+}
+
+ul {
+    text-align: left;
+    padding-left: 260px;
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow:1px 0px #ccc;
+    font-size: 1.1rem;
+}
+
+p {
+    margin: 20px 30px;
+    letter-spacing: 1px;
+    text-shadow:2px 0px #ccc;
+}

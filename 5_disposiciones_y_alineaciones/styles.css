@@ -1,0 +1,16 @@
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+
+.galeria {
+    display: flex;  /*El display: flex; hace que los elementos en este caso las imagenes se adapten a un formato especifico*/
+    flex-wrap: wrap; /*El flex-wrap: wrap; hace que los elementos que se muestra en pantalla se ajuste a ella en caso de un zoom*/
+    
+}
+
+.imagenes_galeria {
+    width: 300px;
+}
+
